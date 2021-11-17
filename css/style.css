@@ -1,0 +1,218 @@
+/* color wheel */
+.bgwhite{
+    background: white;
+}
+.txtwhite{
+    color: white;
+}
+.bgnavy{
+    background: #000324;
+}
+.txtnavy{
+    color: #000324;
+}
+.bgsky{
+    background: #E5FEFF;
+}
+.txtsky{
+    color: #E5FEFF;
+}
+.bgdarknavy{
+    background: #1A1B26;
+}
+.txtdarknavy{
+    color: #1A1B26;
+}
+.bgocean{
+    background: #004CC7;
+}
+.txtocean{
+    color:#004CC7;
+}
+.bgdeepocean{
+    background: #1F51A8;
+}
+.txtdeepocean{
+    color:#1F51A8;
+}
+.bgtextile{
+    background: #EBEDFC;
+}
+.txttextile{
+    color: #EBEDFC;
+}
+.bgmorocco{
+    background: #7A90D9;
+}
+.txtmorocco{
+    color: #7A90D9;
+}
+.bgsisley{
+    background: #006EDB;
+}
+.txtsisley{
+    color: #006EDB;
+}
+.bgbrightblue{
+    background: #000DC7;
+}
+.txtbrightblue{
+    color: #000DC7;
+}
+/* end color wheel */
+body{
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+h1,h5,h4,h2{
+    font-family:'Dosis', sans-serif;
+}
+@media screen and (max-width: 768px) {
+
+    .p{
+        font-size: 20px !important;
+    }
+    
+}
+.navigation{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+}
+.logo{
+    height: 6rem;
+    width: 10rem;
+    /* align-items: baseline;
+    display: block; */
+    padding: 0 1rem;
+}
+.active{
+    background:none !Important;
+    border-radius: 0 !important;
+}
+.nav-link{
+    color: white !important;
+}
+.nav-link:hover{
+    background:none !Important;
+    border: .120rem solid #E5FEFF !important;
+    border-radius: 0 !important;
+    color: white;
+}
+.hero{
+    background: url(../images/header2.jpg);
+    width: 100vw;
+    height: 31rem;
+    background-repeat:no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    /* display: relative; */
+}
+.hero-box{
+    position: absolute;
+    /* top: 50px; */
+    text-align: center;
+    opacity: 0.8;
+    width: 50rem;
+    height: 14.5rem;
+}
+.txtopacity{
+    opacity: 1;
+}
+.center{
+    display: flex;
+    align-items: center;
+}
+.padding50T{
+    padding: 3rem 1rem 0 1rem;
+}
+.padding20B{
+    padding: 2rem 0 2rem 0;
+}
+
+.imghome{
+    width: 100%;
+    height: 25rem;
+    object-fit: cover;
+    object-position: 0 60%;
+    
+}
+.imgaward{
+    width: 12rem;
+    height: 10rem;
+}
+.rooms{
+    background: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+.container-items{
+    margin: 0;
+    width: 100vw;
+}
+.btn-primary{
+    border-radius: 0;
+}
+.amenities{
+    background: url(../images/bg.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.amenImgs{
+    height: 11rem;
+}
+.bold{
+    font-weight: bold;
+}
+.paddingL{
+    padding-left: 1rem;
+}
+.paddingR{
+    padding-right: 1rem;
+}
+.paddingT{
+    padding-top: 2rem;
+}
+.paddingTS{
+    padding-top: 1rem;
+}
+.paddingL0{
+    padding-left: 0 !important;
+}
+.paddingB{
+    padding-bottom: 3rem;
+}
+.padding{
+   padding: 1.2rem;
+}
+.imgs{
+padding: 2rem;
+}
+
+.marginHerotxt{
+    margin-top: 5rem;
+}
+.marginT{
+    margin-top: 2rem;
+}
+.imgheight{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: 0 70%;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.container-navbar {
+    width: 100vw;
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: 1rem;
+    margin-left: auto;
+}
+.paddingB0{
+    padding-bottom: 0 !important;
+}
